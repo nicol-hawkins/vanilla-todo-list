@@ -1,4 +1,32 @@
 * {
-    background-color: lightgrey;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    /* background-image: url('./moroccan-flower.png'); */
+    /* margin: 2vh; */
 }
+
+
+body {
+    background-image: url('./images/moroccan-flower.png');
+}
+
+
+.main-container {
+    margin: auto;
+    display: grid;
+    grid-template-rows: 3;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vh;
+    background-color: white;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+
+
