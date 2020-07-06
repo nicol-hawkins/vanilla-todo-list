@@ -1,8 +1,10 @@
+/* Include the padding and border in an element's total width and height */
 * {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     /* background-image: url('./moroccan-flower.png'); */
     /* margin: 2vh; */
+    /* margin: auto; */
 }
 
 
@@ -12,9 +14,9 @@ body {
 
 
 .main-container {
-    margin: auto;
+    /* margin: auto; */
     display: grid;
-    grid-template-rows: 3;
+    grid-template-rows: repeat(3, auto);
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -26,6 +28,11 @@ body {
 
 h1 {
     margin: 0;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
 }
 
 
