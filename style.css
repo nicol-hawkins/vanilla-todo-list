@@ -13,17 +13,17 @@ body {
 }
 
 
-.main-container {
-    /* margin: auto; */
+.title {
     display: grid;
     grid-template-rows: repeat(3, auto);
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    height: 50vh;
-    width: 50vh;
+    text-align: center;
     background-color: white;
+    padding: 30px 40px;
 
+}
+
+.list-container {
+    background: rgb(236, 235, 235);
 }
 
 h1 {
@@ -33,6 +33,21 @@ h1 {
 ul li {
     cursor: pointer;
     position: relative;
+    font-size: 2rem;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+ul li:hover {
+    background: rgb(204, 204, 204);
+}
+
+ul li:checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
 }
 
 
