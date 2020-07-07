@@ -2,9 +2,6 @@
 * {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-    /* background-image: url('./moroccan-flower.png'); */
-    /* margin: 2vh; */
-    /* margin: auto; */
 }
 
 
@@ -19,7 +16,12 @@ body {
     text-align: center;
     background-color: white;
     padding: 30px 40px;
+    font-size: 5rem;
 
+}
+
+.addButton:hover {
+    background: #888;
 }
 
 .list-container {
@@ -33,7 +35,7 @@ h1 {
 ul li {
     cursor: pointer;
     position: relative;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 ul li:nth-child(odd) {
