@@ -40,7 +40,7 @@ function newElement() {
   } else {
     document.getElementById("myItems").appendChild(li);
   }
-  
+
   //when uncommented, 'x' button dissapears from new list item...
   // document.getElementById("listItem").value = "";
 
