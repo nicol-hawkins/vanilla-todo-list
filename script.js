@@ -31,18 +31,18 @@ list.addEventListener('click', function(ev) {
 
 // Create a new list item
 function newElement() {
-  let li = document.createElement("li");
-  let inputValue = document.getElementById("listItem").value;
-  let t = document.createTextNode(inputValue);
+  const li = document.createElement("li");
+  const inputValue = document.getElementById("listInput").value;
+  const t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === '') {
     alert("You must write something!");
   } else {
     document.getElementById("myItems").appendChild(li);
   }
-document.getElementById("listItem").value = "";
-  // console.log(value)
-
+  
+  //when uncommented, 'x' button dissapears from new list item...
+  // document.getElementById("listItem").value = "";
 
   //Adds close button to newly spanned list items
   var span = document.createElement("SPAN");
